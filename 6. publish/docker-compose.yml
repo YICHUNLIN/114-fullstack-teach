@@ -18,7 +18,7 @@ services:
       - 80:80
       - 443:443
     links:
-      - rserver
+      - server
     depends_on:
-      - rserver
+      - server
   
